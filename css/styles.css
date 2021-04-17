@@ -1,5 +1,65 @@
+:root {
+  --color-body: #afafaf;
+}
+
 /* Typography */
 .container {
-  width: 1005;
   max-width: 1024px;
+  margin: auto;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  color: var(--color-body);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Navigation Bar */
+
+.nav {
+  background: #111;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  color: #fff;
+}
+
+.nav__items {
+  display: flex;
+  margin: 0;
+}
+
+.nav__item > a {
+  color: var(--color-body);
+  padding: 1.5rem;
+  transition: 0.3s;
+}
+
+.nav__item > a:hover {
+  color: #f1f1f1;
+}
+
+@media screen and (min-width: 1024px) {
+  .nav {
+    font-size: 1.75rem;
+  }
+}
+
+/* Lists */
+
+.list {
+  list-style: none;
 }
