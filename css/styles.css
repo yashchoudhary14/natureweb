@@ -26,40 +26,65 @@ a {
 /* Navigation Bar */
 
 .nav {
-  background: #111;
-  padding: 1rem;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
+  padding: 1.5rem 1rem;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
-.nav__logo {
-  color: #fff;
+.nav__menu-btn {
+  background: dodgerblue;
+  height: fit-content;
+  border-radius: 50px;
+  cursor: pointer;
 }
 
-.nav__items {
-  display: flex;
+.nav__menu-btn > p {
   margin: 0;
+  padding: 1rem 1.3rem 1rem 2rem;
+  font-size: 1.5rem;
+  color: #f3f3f3;
 }
 
-.nav__item > a {
-  color: var(--color-body);
-  padding: 1.5rem;
-  transition: 0.3s;
+.nav__brand {
+  font-size: 2.7rem;
+  margin: 0;
+  letter-spacing: 1px;
 }
 
-.nav__item > a:hover {
-  color: #f1f1f1;
+.nav__list {
+  margin: 0;
+  width: 100%;
 }
 
-@media screen and (min-width: 1024px) {
-  .nav {
-    font-size: 1.75rem;
+.nav__item {
+}
+
+@media screen and (min-width: 768px) {
+  .nav__menu-btn {
+    display: none;
   }
+}
+@media screen and (min-width: 1024px) {
 }
 
 /* Lists */
 
 .list {
   list-style: none;
+}
+
+/* Collapsibles */
+
+.collapsible__content {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.collapsible--expanded .collapsible__content {
+  max-height: 100vh;
+  opacity: 1;
 }
