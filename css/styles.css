@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-family: montserrat, Arial, Helvetica, sans-serif;
   font-size: 2rem;
   line-height: 1.5;
   color: var(--color-body);
@@ -28,8 +28,8 @@ a {
 .nav {
   display: flex;
   justify-content: space-between;
-  padding: 1.5rem 1rem;
   flex-wrap: wrap;
+  padding: 1.5rem 1rem;
   align-items: center;
 }
 
