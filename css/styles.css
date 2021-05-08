@@ -1,7 +1,19 @@
 :root {
-  --color-body: #afafaf;
+  --color-body: #8a8a8a;
+  --font-arvo: "Arvo", Arial, Helvetica, sans-serif;
 }
 
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  border: 0;
+}
+
+*::selection {
+  background: #72d8c7;
+  color: #fff;
+}
 /* Typography */
 .container {
   max-width: 1024px;
@@ -21,6 +33,15 @@ body {
 
 a {
   text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-arvo);
 }
 
 /* Navigation Bar */
@@ -48,6 +69,7 @@ a {
 }
 
 .nav__brand {
+  font-family: var(--font-arvo);
   font-size: 2.7rem;
   margin: 0;
   letter-spacing: 1px;
@@ -58,8 +80,18 @@ a {
   width: 100%;
 }
 
+.nav__item > a {
+  color: var(--color-body);
+  transition: color 0.3s;
+}
+
+.nav__item > a:hover {
+  color: #14bd25;
+  transform: translateX(5px);
+}
+
 .nav__item {
-  padding: 0.5rem;
+  padding: 0.5rem 0;
 }
 
 @media screen and (min-width: 768px) {
