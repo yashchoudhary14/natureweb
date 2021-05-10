@@ -50,7 +50,7 @@ h6 {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 1.5rem 1rem;
+  padding: 1.5rem 1.5rem;
   align-items: center;
 }
 
@@ -65,7 +65,7 @@ h6 {
   margin: 0;
   padding: 1rem 1.3rem 1rem 2rem;
   font-size: 1.5rem;
-  color: #f3f3f3;
+  color: #fff;
 }
 
 .nav__brand {
@@ -81,7 +81,7 @@ h6 {
 }
 
 .nav__item > a {
-  color: var(--color-body);
+  color: #fff;
   transition: color 0.3s;
 }
 
@@ -138,5 +138,46 @@ h6 {
   .collapsible__content {
     opacity: 1;
     max-height: 100vh;
+  }
+}
+
+/* Hero */
+
+.hero {
+  background: url(/images/lukasz-szmigiel-jFCViYFYcus-unsplash.jpg);
+  background-size: cover;
+  padding-bottom: 20rem;
+  color: #fff;
+}
+
+.hero__tagline {
+  font-size: 4.5rem;
+  position: relative;
+  top: 8rem;
+  text-align: center;
+  margin: 1rem;
+}
+
+.hero__tagline-highlight {
+  color: #42db51;
+  transition: all 0.5s;
+  display: inline-block;
+}
+
+.hero__tagline-highlight:hover {
+  color: #54b85e;
+  transform: scale(1.1);
+}
+
+@media screen and (min-width: 768px) {
+  .hero__tagline {
+    font-size: 5.5rem;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .hero__tagline {
+    font-size: 4rem;
   }
 }
