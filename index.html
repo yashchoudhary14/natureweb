@@ -25,28 +25,30 @@
   <body>
     <section class="hero">
       <!-- The Navigation Bar -->
-      <header>
-        <nav class="nav collapsible">
-          <p class="nav__brand">Naturelily</p>
-          <span class="nav__menu-btn">
-            <p>menu +</p>
-          </span>
-          <ul class="nav__list list collapsible__content">
-            <li class="nav__item"><a href="#">Contact Us</a></li>
-            <li class="nav__item"><a href="#">Something</a></li>
-            <li class="nav__item"><a href="#">Donate</a></li>
-          </ul>
-        </nav>
-      </header>
-      <p class="hero__tagline">
-        Help us to <br />
-        <!-- TODO:if the class "tagline__highlight" become reusable change it. -->
-        save <span class="hero__tagline-highlight">Nature</span> and <br />it's
-        beauty
-      </p>
+      <div class="container">
+        <header>
+          <nav class="nav collapsible">
+            <p class="nav__brand">Naturelily</p>
+            <span class="nav__menu-btn">
+              <p>menu +</p>
+            </span>
+            <ul class="nav__list list collapsible__content">
+              <li class="nav__item"><a href="#">Contact Us</a></li>
+              <li class="nav__item"><a href="#">Something</a></li>
+              <li class="nav__item"><a href="#">Donate</a></li>
+            </ul>
+          </nav>
+        </header>
+        <p class="hero__tagline">
+          Help us to <br />
+          <!-- TODO:if the class "tagline__highlight" become reusable change it. -->
+          save <span class="hero__tagline-highlight">Nature</span> and
+          <br />it's beauty
+        </p>
+      </div>
     </section>
 
-    <!--  -->
+    <!--Start of the info block  -->
     <section class="container">
       <header class="info__header">
         <h2 class="info__heading">Problems Today</h2>
@@ -69,18 +71,14 @@
       <!-- TODO: optimize the images -->
       <article class="grid grid--1x2 info-block">
         <div class="info__content">
-          <h3 class="info-content__heading">Global Warming</h3>
+          <h3 class="info-content__heading">Forest Fires</h3>
           <p class="info-content__info">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo qui,
             ipsa voluptate ut, quae magni eaque eveniet vero nemo ab autem
             quisquam laboriosam! Eaque, ipsam.
           </p>
         </div>
-        <img
-          class="info-content__img"
-          src="/images/global_warming.jpg"
-          alt=""
-        />
+        <img class="info-content__img" src="/images/forest_fire.jpg" alt="" />
       </article>
     </section>
     <script src="js/main.js"></script>
