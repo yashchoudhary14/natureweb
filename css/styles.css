@@ -54,6 +54,10 @@ h6 {
   align-items: center;
 }
 
+.nav > a {
+  color: #fff;
+}
+
 .nav__menu-btn {
   background: dodgerblue;
   height: fit-content;
@@ -65,7 +69,6 @@ h6 {
   margin: 0;
   padding: 1rem 1.3rem 1rem 2rem;
   font-size: 1.5rem;
-  color: #fff;
 }
 
 .nav__brand {
@@ -73,6 +76,10 @@ h6 {
   font-size: 2.7rem;
   margin: 0;
   letter-spacing: 1px;
+}
+
+.nav__brand > a {
+  color: #fff;
 }
 
 .nav__list {
@@ -249,4 +256,69 @@ h6 {
   .info-block:nth-of-type(even) .info__content {
     order: 2;
   }
+}
+
+/* Slider */
+
+.slider {
+  width: 100%;
+  max-width: 50vw;
+  height: 30vw;
+  overflow: hidden;
+  border-radius: 15px;
+  margin: 3rem auto;
+}
+
+.slides {
+  display: flex;
+  width: 500%;
+  height: 100%;
+}
+
+.slide {
+  width: 20%;
+  transition: 0.4s;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+}
+
+.slider__nav {
+  position: relative;
+  bottom: 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.sl__nav-bar {
+  height: 10px;
+  width: 50px;
+  margin: 10px;
+  border: 2px solid #fff;
+}
+
+.sl__nav-bar:hover {
+  background-color: #fff;
+}
+
+input[name="slider__input"] {
+  display: none;
+}
+
+#sl__img-1:checked ~ .img-1 {
+  margin-left: 0;
+}
+#sl__img-2:checked ~ .img-1 {
+  margin-left: -20%;
+}
+#sl__img-3:checked ~ .img-1 {
+  margin-left: -40%;
+}
+#sl__img-4:checked ~ .img-1 {
+  margin-left: -60%;
+}
+#sl__img-5:checked ~ .img-1 {
+  margin-left: -80%;
 }

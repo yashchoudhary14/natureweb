@@ -1,0 +1,41 @@
+Mini-tasks : 
+*change the name of the web with a logo and make it link to the main page.
+*Add a support button on the navigation bar.
+*In the footer add the copyright paragraph at the bottom of the logo.
+*Sliders : se the video of the sliders.
+
+1. natural problems : forest fires, Global Warming, Air Pollution, Water Pollution. after the component type
+   and many many more.
+   Also add the solution page button in the card of natural problems.
+
+
+2. Make the solution page : Heading for now can be "we have given some solutions for the natural problems
+   today." 
+   And then the name of the problem and the dumy text.
+   like : name
+          dumy text.
+   have no card, and the background is not decided at theis time.
+
+
+3. What we have done section : make like circles and inside the circles we have icons of the task done. and 
+   at the bottom of the circle we write the task.
+
+
+4. The footer : Add the logo of the web on the left side and other links on the right side and in mobiels
+   the logo will be at bottom of every thing and the links are in colapsibles.
+
+
+5. Add the donation section and the more can be done section : For now the heading can be "support now" and 
+   then there can be a clip path background,
+   heading : support now
+   sub-heading : Donate now
+   paragraph : you can grow a healty tree just by donatin only 1$. 
+               donate now to web name. 
+
+
+6. Make the quote area : on the big screens we can have the naturelily name and on the left side we can have
+   the quote icon on the start and on the end of the quote.
+   background : can have background and can't be, not decided yet.
+
+
+7. The thank you mesasge: At the last of the web and before the footer we have the thank you message.
